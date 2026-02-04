@@ -16,7 +16,7 @@ module.exports = async function handler(req, res) {
   try {
     await resend.emails.send({
       from: "SPC-CPF <noreply@spc-cpf.com>",
-      to: ["well-being@spc-cpf.com"],
+      to: ["info@spc-cpf.com"],
       subject: "New email trigger",
       html: `
         <p><strong>Name:</strong> ${name || "Not provided"}</p>
