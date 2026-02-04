@@ -1,1 +1,9 @@
+{
+  "name": "spc-email-service",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "resend": "^4.0.0"
+  }
+}
 
